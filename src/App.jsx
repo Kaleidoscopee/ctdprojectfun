@@ -2,11 +2,12 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+//require('dotenv').config();
 
 function App() {
 
   //api fetch
-  fetch(`https://api.thecatapi.com/v1/images/search?limit=10&breed_ids=beng&api_key=${dogAPI}`)
+  fetch(`https://api.sampleapis.com/coffee/hot`)
   .then(res => res.json())
   .then(data => console.log(data))
   .catch(error => console.log("Error: " + error));
