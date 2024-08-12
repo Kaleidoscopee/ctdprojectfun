@@ -37,3 +37,6 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+8/11/24 - 9:56pm
+I am so drained, now the Vite server isn't running live and wont update unless I debug for some reason. I genuinly don't know what else to do at this point. Maybe I can try fetch witout using Vite since I don't need to hide my api key with this link? I'll give it another go with barebones JS, CSS, HTML and DOM. 
